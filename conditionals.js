@@ -36,7 +36,14 @@ if (temperature < -40 || temperature > 40) {
   console.log("Maybe going outside isn't such a great idea…");
 }
 
-*/
+
 if (!raining) {
   console.log("Leave your umbrella at home!");
+}
+*/
+
+var x = 10;
+while (x <= 25) {
+  console.log('Printing out x = ' + x);
+  x = x + 2;
 }
